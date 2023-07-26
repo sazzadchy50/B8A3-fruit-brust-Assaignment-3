@@ -47,11 +47,11 @@
   </head>
   <body class="font-lato">
     <header>
-      <nav>
+      <nav class="flex">
         <div
           class="justify-between navbar bg-base-100 container mx-auto mt-14 lg:rounded-full lg:bg-[#F85559] lg:text-white ralative"
         >
-          <div class="navbar-start flex items-center flex-1">
+          <div class="navbar-start flex items-center flex-1  ">
             <div class="dropdown">
               <div class="hidden lg:flex">
                 <ul class="menu menu-horizontal px-1">
@@ -61,6 +61,7 @@
                   <li class="text-lg"><a>All Fruits</a></li>
                 </ul>
               </div>
+             
               <label tabindex="0" class="btn btn-ghost lg:hidden">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -72,6 +73,7 @@
                   <path
                     stroke-linecap="round"
                     stroke-linejoin="round"
+                   
                     stroke-width="2"
                     d="M4 6h16M4 12h8m-8 6h16"
                   />
@@ -79,7 +81,7 @@
               </label>
               <ul
                 tabindex="0"
-                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 "
               >
                 <li class="text-lg"><a>Home</a></li>
                 <li class="text-lg"><a>About Us</a></li>
@@ -111,6 +113,7 @@
               </ul>
             </div>
           </div>
+          
           <div
             class="logo flex gap-3 justify-center navar-center items-center flex-1 "
           >
@@ -142,7 +145,8 @@
                 placeholder="Search here"
               />
             </div>
-          </div class="absolute left-0">
+          </div >
+          </div>
       </nav>
     <!-- ! banner section start here -->
     <section class="container mx-auto relative px-5">
@@ -299,7 +303,7 @@
     <section class="container mx-auto p-5 mt-6 lg:mt-64 ">
       <div class="flex flex-col lg:flex-row justify-center items-center text-center lg:justify-between">
         <div class=" lg:mb-12 text-center">
-          <h3  class=" text-primary-color text-xl md:text-5xl lg:text-7xl font-extrabold text-center lg:text-left">
+          <h3  class=" text-primary-color text-xl md:text-5xl lg:text-5xl font-extrabold text-center lg:text-left">
             Deal of the day
           </h3>
           <p class="text-[#121212] opacity-60 text-sm lg:text-base mt-2   md:mt-6 text-center lg:text-left mb-5">
@@ -350,6 +354,7 @@
         
       </div>
       
+      
 
 <div class=" grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-5">
   
@@ -358,21 +363,21 @@
             <img src="./images/fruit6.png" alt="apple" class="rounded-xl" />
           </figure>
           <div class="card-body items-center text-center">
-            <h2 class="card-title text-2xl font-bold border-b-2 pb-4">12.90$ - 18.85$</h2>
-           
+            <h2 class="card-title text-2xl font-bold ">12.90$ - 18.85$</h2>
+            <div class="divider"></div> 
             <p class="opacity-60">Apples</p>
             <div class="rating rating-md rating-half my-2">
-              <input type="radio" name="rating-10" class="rating-hidden" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" checked />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="card-1" class="rating-hidden" />
+              <input type="radio" name="card-1" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+              <input type="radio" name="card-1" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="card-1" class="bg-orange-500 mask mask-star-2 mask-half-1" checked />
+              <input type="radio" name="card-1" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="card-1" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+              <input type="radio" name="card-1" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="card-1" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+              <input type="radio" name="card-1" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="card-1" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+              <input type="radio" name="card-1" class="bg-orange-500 mask mask-star-2 mask-half-2" />
             </div>
             <div class="card-actions">
               <button class=" text-orange-color" onclick="apple.showModal()">Details</button>
@@ -384,21 +389,21 @@
             <img src="./images/fruit7.png" alt="apple" class="rounded-xl" />
           </figure>
           <div class="card-body items-center text-center">
-            <h2 class="card-title text-2xl font-bold border-b-2 pb-4">12.90$ - 18.85$</h2>
-           
+            <h2 class="card-title text-2xl font-bold ">12.90$ - 18.85$</h2>
+            <div class="divider"></div> 
             <p class="opacity-60">Orange</p>
             <div class="rating rating-md rating-half my-2">
-              <input type="radio" name="rating-10" class="rating-hidden" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" checked />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="card-2" class="rating-hidden" />
+              <input type="radio" name="card-2" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+              <input type="radio" name="card-2" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="card-2" class="bg-orange-500 mask mask-star-2 mask-half-1" checked />
+              <input type="radio" name="card-2" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="card-2" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+              <input type="radio" name="card-2" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="card-2" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+              <input type="radio" name="card-2" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="card-2" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+              <input type="radio" name="card-2" class="bg-orange-500 mask mask-star-2 mask-half-2" />
             </div>
             <div class="card-actions">
               <button class=" text-orange-color" onclick="orange.showModal()">Details</button>
@@ -410,21 +415,21 @@
             <img src="./images/fruit8.png" alt="apple" class="rounded-xl" />
           </figure>
           <div class="card-body items-center text-center">
-            <h2 class="card-title text-2xl font-bold border-b-2 pb-4">12.90$ - 18.85$</h2>
-           
+            <h2 class="card-title text-2xl font-bold ">12.90$ - 18.85$</h2>
+            <div class="divider"></div> 
             <p class="opacity-60">Red Dragon</p>
             <div class="rating rating-md rating-half my-2">
-              <input type="radio" name="rating-10" class="rating-hidden" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" checked />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="card-3" class="rating-hidden" />
+              <input type="radio" name="card-3" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+              <input type="radio" name="card-3" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="card-3" class="bg-orange-500 mask mask-star-2 mask-half-1" checked />
+              <input type="radio" name="card-3" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="card-3" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+              <input type="radio" name="card-3" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="card-3" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+              <input type="radio" name="card-3" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="card-3" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+              <input type="radio" name="card-3" class="bg-orange-500 mask mask-star-2 mask-half-2" />
             </div>
             <div class="card-actions">
               <button class=" text-orange-color" onclick="dragon.showModal()">Details</button>
@@ -436,21 +441,21 @@
             <img src="./images/fruit9.png" alt="apple" class="rounded-xl" />
           </figure>
           <div class="card-body items-center text-center">
-            <h2 class="card-title text-2xl font-bold border-b-2 pb-4">12.90$ - 18.85$</h2>
-           
+            <h2 class="card-title text-2xl font-bold ">12.90$ - 18.85$</h2>
+            <div class="divider"></div> 
             <p class="opacity-60">Banana</p>
             <div class="rating rating-md rating-half my-2">
-              <input type="radio" name="rating-10" class="rating-hidden" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" checked />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-              <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="card-4" class="rating-hidden" />
+              <input type="radio" name="card-4" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+              <input type="radio" name="card-4" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="card-4" class="bg-orange-500 mask mask-star-2 mask-half-1" checked />
+              <input type="radio" name="card-4" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="card-4" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+              <input type="radio" name="card-4" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="card-4" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+              <input type="radio" name="card-4" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="card-4" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+              <input type="radio" name="card-4" class="bg-orange-500 mask mask-star-2 mask-half-2" />
             </div>
             <div class="card-actions">
               <button class=" text-orange-color" onclick="banana.showModal()">Details</button>
@@ -459,7 +464,9 @@
         </div>
 </div>
       
-
+<div class="flex justify-center items-center mt-10 mb-12 lg:mb-32">
+  <button class="btn bg-[#F85559] border-none text-white , text-lg md:text-xl font-bold md:font-extrabold normal-case"> Shop Now </button>
+</div>
 
 <dialog id="apple" class="modal modal-bottom sm:modal-middle p-5">
   <form method="dialog" class="">
@@ -472,17 +479,17 @@
        
         <p class="opacity-60">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
         <div class="rating rating-md rating-half my-2">
-          <input type="radio" name="rating-10" class="rating-hidden" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" checked />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="card-1" class="rating-hidden" />
+          <input type="radio" name="card-1" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="card-1" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="card-1" class="bg-orange-500 mask mask-star-2 mask-half-1" checked />
+          <input type="radio" name="card-1" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="card-1" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="card-1" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="card-1" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="card-1" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="card-1" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="card-1" class="bg-orange-500 mask mask-star-2 mask-half-2" />
         </div>
         <div class="card-actions">
           <button class="btn btn-outline border-[#F85559] text-[#F85559]">Close</button>
@@ -504,17 +511,17 @@
        
         <p class="opacity-60">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
         <div class="rating rating-md rating-half my-2">
-          <input type="radio" name="rating-10" class="rating-hidden" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" checked />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="card-2" class="rating-hidden" />
+          <input type="radio" name="card-2" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="card-2" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="card-2" class="bg-orange-500 mask mask-star-2 mask-half-1" checked />
+          <input type="radio" name="card-2" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="card-2" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="card-2" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="card-2" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="card-2" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="card-2" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="card-2" class="bg-orange-500 mask mask-star-2 mask-half-2" />
         </div>
         <div class="card-actions">
           <button class="btn btn-outline border-[#F85559] text-[#F85559]">Close</button>
@@ -536,17 +543,17 @@
        
         <p class="opacity-60">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
         <div class="rating rating-md rating-half my-2">
-          <input type="radio" name="rating-10" class="rating-hidden" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" checked />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="card-3" class="rating-hidden" />
+          <input type="radio" name="card-3" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="card-3" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="card-3" class="bg-orange-500 mask mask-star-2 mask-half-1" checked />
+          <input type="radio" name="card-3" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="card-3" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="card-3" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="card-3" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="card-3" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="card-3" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="card-3" class="bg-orange-500 mask mask-star-2 mask-half-2" />
         </div>
         <div class="card-actions">
           <button class="btn btn-outline border-[#F85559] text-[#F85559]">Close</button>
@@ -568,17 +575,17 @@
        
         <p class="opacity-60">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
         <div class="rating rating-md rating-half my-2">
-          <input type="radio" name="rating-10" class="rating-hidden" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" checked />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-1" />
-          <input type="radio" name="rating-10" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="card-4" class="rating-hidden" />
+          <input type="radio" name="card-4" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="card-4" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="card-4" class="bg-orange-500 mask mask-star-2 mask-half-1" checked />
+          <input type="radio" name="card-4" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="card-4" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="card-4" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="card-4" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="card-4" class="bg-orange-500 mask mask-star-2 mask-half-2" />
+          <input type="radio" name="card-4" class="bg-orange-500 mask mask-star-2 mask-half-1" />
+          <input type="radio" name="card-4" class="bg-orange-500 mask mask-star-2 mask-half-2" />
         </div>
         <div class="card-actions">
           <button class="btn btn-outline border-[#F85559] text-[#F85559]">Close</button>
@@ -593,7 +600,98 @@
 
     </section>
     <!--   ! deal of the day section end here -->
+    <!--   ! team section start here -->
+    <section class="container mx-auto  p-5">
+      <div class="hero" style="background-image: url('./images/banner1.png');">
+        <div class="hero-overlay bg-black bg-opacity-60 "></div>
+        <div class="hero-content text-center text-neutral-content ">
+          <div class="py-6 lg:py-32 ">
+
+            <div>
+              <h1 class="mb-5 text-xl lg:text-5xl text-white font-bold">Meet the team section</h1>
+              <p class="mb-5 text-white">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
+           
+
+            <div class=" grid lg:gap-20 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center items-center lg:mt-12">
+            
+               <div class="card  ">
+                 <figure>
+                   <img class="" src="./images/member1.png" alt="awlad" class="rounded-xl" />
+                 </figure>
+                 <div class="card-body items-center text-center">
+                   <h2 class="card-title text-2xl font-bold text-white">Awlad Hossain</h2>
+                   <p>Fruits Expert</p>
+                   <div class="card-actions">
+                     <div class="flex gap-3">
+                       <i class="fa-brands fa-facebook" style="color: #f85559;"></i>
+                       <i class="fa-brands fa-square-twitter" style="color: #f85559;"></i>
+                       <i class="fa-brands fa-linkedin" style="color: #f85559;"></i>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="card  ">
+                 <figure >
+                   <img src="./images/member2.png" alt="Safia Chowdhury" class="rounded-xl" />
+                 </figure>
+                 <div class="card-body items-center text-center">
+                   <h2 class="card-title text-2xl font-bold text-white">Safia Chowdhury</h2>
+                   <p>Fruits Expert</p>
+                   <div class="card-actions">
+                     <div class="flex gap-3">
+                       <i class="fa-brands fa-facebook" style="color: #f85559;"></i>
+                       <i class="fa-brands fa-square-twitter" style="color: #f85559;"></i>
+                       <i class="fa-brands fa-linkedin" style="color: #f85559;"></i>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="card  ">
+                 <figure >
+                   <img src="./images/member3.png" alt="Rokib Hossain" class="rounded-xl" />
+                 </figure>
+                 <div class="card-body items-center text-center">
+                   <h2 class="card-title text-2xl font-bold text-white">Rokib Hossain</h2>
+                   <p>Fruits Expert</p>
+                   <div class="card-actions">
+                     <div class="flex gap-3">
+                       <i class="fa-brands fa-facebook" style="color: #f85559;"></i>
+                       <i class="fa-brands fa-square-twitter" style="color: #f85559;"></i>
+                       <i class="fa-brands fa-linkedin" style="color: #f85559;"></i>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="card  ">
+                 <figure >
+                   <img src="./images/member4.png" alt="Chaity" class="rounded-xl" />
+                 </figure>
+                 <div class="card-body items-center text-center">
+                   <h2 class="card-title text-2xl font-bold text-white">Chaity</h2>
+                   <p>Fruits Expert</p>
+                   <div class="card-actions">
+                     <div class="flex gap-3">
+                      <i class="fa-brands fa-facebook" style="color:  #f85559;"></i>
+                       <i class="fa-brands fa-square-twitter" style="color: #f85559;"></i>
+                       <i class="fa-brands fa-linkedin" style="color: #f85559;"></i>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+
+
+            </div>
+           
+          </div>
+        </div>
+     
+    </section>
+    <!--   ! team section end here -->
+
     </main>
+   
   </body>
 </html>
 
